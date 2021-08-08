@@ -8,4 +8,4 @@ var htmlPath = path.join(__dirname, 'frontend','build');
 app.use(express.static(htmlPath))
 app.use(express.static("public"));
 
-app.listen(port,()=>{console.log("server started")})
+app.listen(port,()=>{console.log("server started")}) 
